@@ -1,4 +1,3 @@
----
 title: Another Flower ライブ!! 「Cross bouquet」【未完】
 tags:
   - AnotherFlower

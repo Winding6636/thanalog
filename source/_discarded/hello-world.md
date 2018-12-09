@@ -1,4 +1,3 @@
----
 title: Hello world!
 id: 1
 categories:
