@@ -1,4 +1,4 @@
-title: 何かをやるということ。(今年のこととか云々)
+title: 色々考える今年のこととか云々
 author: Winding
 tags:
   - Advent Calender
@@ -11,7 +11,7 @@ categories:
   - 雑記
 date: 2018-12-16 00:00:00
 ---
-<p class="info">**この記事は [一人アドベントカレンダー Advent Calendar 2018](https://adventar.org/calendars/3081) 10日目.**<br>*前日のaiwasさんの記事はこれを書いているときにはありません<br>明日は[ねそすけ](//adventar.org/calendars/3081)です。*</p>
+<p class="info">**この記事は [一人アドベントカレンダー Advent Calendar 2018](https://adventar.org/calendars/3081) 16日目.**<br>*前日のaiwasさんの記事はこれを書いているときにはありません<br>明日は[ねそすけ](//adventar.org/calendars/3081)です。*</p>
 
 ## お一人様 Advent Calendar 2018 Hosted by nesosuke(ねそ).
 <!-- more -->
