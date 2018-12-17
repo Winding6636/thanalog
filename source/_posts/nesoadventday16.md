@@ -11,7 +11,7 @@ categories:
   - 雑記
 date: 2018-12-16 00:00:00
 ---
-<p class="info">**この記事は [一人アドベントカレンダー Advent Calendar 2018](https://adventar.org/calendars/3081) 16日目.**<br>*前日のaiwasさんの記事はこれを書いているときにはありません<br>明日は[ねそすけ](//adventar.org/calendars/3081)です。*</p>
+<p class="info">**この記事は [一人アドベントカレンダー Advent Calendar 2018](https://adventar.org/calendars/3081) 16日目.**<br>*前日の[aiwasさんの記事は~~これを書いているときにはありません~~Keyの「SummerPocket」について](//blog.elendia.net/posts/summer-pockets/)のようですね。クリアしてないです。<br>明日は[ねそすけで~~す。~~経県値について](//neso.tech/blog/pref-ive-visited)だとか。僕より色んな所行ってますね。東北を攻めたい。*</p>
 
 ## お一人様 Advent Calendar 2018 Hosted by nesosuke(ねそ).
 <!-- more -->
