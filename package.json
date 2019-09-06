@@ -24,7 +24,7 @@
     "hexo-renderer-marked": "0.3.2",
     "hexo-renderer-scss": "1.2.0",
     "hexo-renderer-stylus": "0.3.3",
-    "hexo-server": "0.2.2",
+    "hexo-server": "0.3.3",
     "hexo-tag-mastodon": "1.0.4",
     "hexo-tag-twitter": "1.0.1",
     "jquery": "3.4.1",
