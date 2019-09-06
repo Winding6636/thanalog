@@ -18,7 +18,7 @@
     "hexo-generator-tag": "0.2.0",
     "hexo-include-markdown": "1.0.2",
     "hexo-migrator-wordpress": "0.1.2",
-    "hexo-related-popular-posts": "2.0.6",
+    "hexo-related-popular-posts": "3.0.6",
     "hexo-renderer-ejs": "0.3.1",
     "hexo-renderer-less": "0.2.0",
     "hexo-renderer-marked": "0.3.2",
