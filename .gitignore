@@ -78,3 +78,6 @@ themes/Themes/
 
 /memo
 /source/_drafts/
+
+_config.yml
+_admin-config.yml
