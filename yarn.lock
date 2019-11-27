@@ -2146,10 +2146,11 @@ hexo-generator-category@1.0.0:
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-feed@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-generator-feed/-/hexo-generator-feed-2.0.0.tgz#339a1483e50630096ad51602c6c4981f66cedc21"
+hexo-generator-feed@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-feed/-/hexo-generator-feed-2.2.0.tgz#4b8b752a27d00525363e3449f18d063a92c13f0d"
   dependencies:
+    hexo-util "^1.3.0"
     nunjucks "^3.0.0"
 
 hexo-generator-index@1.0.0:
@@ -2308,6 +2309,16 @@ hexo-util@^1.0.0, hexo-util@^1.4.0:
     cross-spawn "^7.0.0"
     highlight.js "^9.13.1"
     html-entities "^1.2.1"
+    striptags "^3.1.1"
+
+hexo-util@^1.3.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-1.6.0.tgz#34cad1f296e2163c289f53b434166ff4baa57890"
+  dependencies:
+    bluebird "^3.5.2"
+    camel-case "^3.0.0"
+    cross-spawn "^7.0.0"
+    highlight.js "^9.13.1"
     striptags "^3.1.1"
 
 hexo@4.0.0:
