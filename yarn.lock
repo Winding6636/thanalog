@@ -2201,9 +2201,9 @@ hexo-pagination@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-1.0.0.tgz#c9c0ca3665267b9e9d0a89fc3edcaf3276907dc1"
 
-hexo-related-popular-posts@3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-3.0.6.tgz#e96567ab0dbcf19d39c9cdb0f002605e0d533d43"
+hexo-related-popular-posts@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-4.0.0.tgz#529085634c328756a9c00b46de141c0676f1a43c"
   dependencies:
     cheerio "^1.0.0-rc.2"
     columnify "^1.5.4"
