@@ -2094,9 +2094,9 @@ hexo-front-matter@^1.0.0:
   dependencies:
     js-yaml "^3.13.1"
 
-hexo-fs@2.0.0, hexo-fs@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-2.0.0.tgz#0bc421bc0c975a85a25061aca9537fb59292d279"
+hexo-fs@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-2.0.1.tgz#abbdcadec067a8326d14b48e101935cf1a4f48e9"
   dependencies:
     bluebird "^3.5.1"
     chokidar "^3.0.0"
@@ -2128,6 +2128,15 @@ hexo-fs@^1.0.2:
     bluebird "^3.5.1"
     chokidar "^2.0.4"
     escape-string-regexp "^1.0.5"
+    graceful-fs "^4.1.11"
+
+hexo-fs@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-2.0.0.tgz#0bc421bc0c975a85a25061aca9537fb59292d279"
+  dependencies:
+    bluebird "^3.5.1"
+    chokidar "^3.0.0"
+    escape-string-regexp "^2.0.0"
     graceful-fs "^4.1.11"
 
 hexo-generator-alias@0.1.3:
