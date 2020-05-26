@@ -92,5 +92,5 @@ feed:
 # hexo-admin authentification
 admin:
   username: Winding
-  password_hash: $2a$10$Ho6uc//qWYV/V0/Bh7xSs.ka63qUrbUelo3z9lUW4GbWcUW2PL24S
-  secret: 68w8zxos89hwi
+  password_hash: $2a$10$pq.eA.opc8GilS4SUsRYIucvY8urfQryjEFQzoeh16QFTtwO6t81y
+  secret: MINORISK

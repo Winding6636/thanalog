@@ -76,7 +76,7 @@ themes/Themes/
 *.PNG
 *.jpg
 
-/memo
+memo
 /source/_drafts/
 
 _config.yml
