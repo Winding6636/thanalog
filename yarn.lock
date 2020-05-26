@@ -762,6 +762,21 @@ cheerio@^1.0.0-rc.2:
     lodash "^4.15.0"
     parse5 "^3.0.1"
 
+chokidar@3.4.0, chokidar@^3.0.0, chokidar@^3.3.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.0.tgz#b30611423ce376357c765b9b8f904b9fba3c0be8"
+  integrity sha512-aXAaho2VJtisB/1fg1+3nlLJqGOuewTzQpd/Tz0yTg2R0e4IGtshYvtjowyEumcBv2z+y4+kc75Mz7j5xJskcQ==
+  dependencies:
+    anymatch "~3.1.1"
+    braces "~3.0.2"
+    glob-parent "~5.1.0"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.4.0"
+  optionalDependencies:
+    fsevents "~2.1.2"
+
 chokidar@^1.5.2:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-1.7.0.tgz#798e689778151c8076b4b360e5edd28cda2bb468"
@@ -776,20 +791,6 @@ chokidar@^1.5.2:
     readdirp "^2.0.0"
   optionalDependencies:
     fsevents "^1.0.0"
-
-chokidar@^3.0.0, chokidar@^3.3.0, chokidar@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.0.tgz#b30611423ce376357c765b9b8f904b9fba3c0be8"
-  dependencies:
-    anymatch "~3.1.1"
-    braces "~3.0.2"
-    glob-parent "~5.1.0"
-    is-binary-path "~2.1.0"
-    is-glob "~4.0.1"
-    normalize-path "~3.0.0"
-    readdirp "~3.4.0"
-  optionalDependencies:
-    fsevents "~2.1.2"
 
 cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   version "1.0.4"
@@ -2026,9 +2027,10 @@ hawk@1.1.1:
     hoek "0.9.x"
     sntp "0.2.x"
 
-hawk@^7.0.10:
+hawk@7.0.10:
   version "7.0.10"
   resolved "https://registry.yarnpkg.com/hawk/-/hawk-7.0.10.tgz#960f72edac9c6b9114c8387886d7278fba9119eb"
+  integrity sha512-3RWF4SXN9CdZ1VDAe6Pn3Rd0tC3Lw+GV+esX5oKCrXoScZK3Ri6dl5Wt986M/hlzU+GuapTGiB0rBhGeRIBQsw==
   dependencies:
     b64 "4.x.x"
     boom "7.x.x"
@@ -2045,9 +2047,10 @@ hawk@~3.1.3:
     hoek "2.x.x"
     sntp "1.x.x"
 
-hexo-admin@^2.3.0:
+hexo-admin@2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/hexo-admin/-/hexo-admin-2.3.0.tgz#526448e91c3d39b48a020526420e37349cd8ac42"
+  integrity sha1-UmRI6Rw9ObSKAgUmQg43NJzYrEI=
   dependencies:
     bcrypt-nodejs "0.0.3"
     body-parser "^1.5.0"
@@ -2073,7 +2076,7 @@ hexo-bunyan@^2.0.0:
     mv "~2"
     safe-json-stringify "~1"
 
-hexo-cli@^3.0.0, hexo-cli@^3.1.0:
+hexo-cli@3.1.0, hexo-cli@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/hexo-cli/-/hexo-cli-3.1.0.tgz#a7414d4647333fe73762f86d77e5660659c0d05b"
   dependencies:
@@ -2100,6 +2103,16 @@ hexo-front-matter@^1.0.0:
   resolved "https://registry.yarnpkg.com/hexo-front-matter/-/hexo-front-matter-1.0.0.tgz#0b48b1c1ed143e8cb25b3b223a9037385d910655"
   dependencies:
     js-yaml "^3.13.1"
+
+hexo-fs@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-3.1.0.tgz#2052ff72c68cda2c577a87aa0ea7980ae503fa99"
+  integrity sha512-SfoDH7zlU9Iop+bAfEONXezbNIkpVX1QqjNCBYpapilZR+xVOCfTEdlNixanrKBbLGPb2fXqrdDBFgrKuiVGQQ==
+  dependencies:
+    bluebird "^3.5.1"
+    chokidar "^3.0.0"
+    graceful-fs "^4.1.11"
+    hexo-util "^2.0.0"
 
 hexo-fs@^0.1.3:
   version "0.1.6"
@@ -2128,47 +2141,44 @@ hexo-fs@^2.0.0, hexo-fs@^2.0.1:
     escape-string-regexp "^2.0.0"
     graceful-fs "^4.1.11"
 
-hexo-fs@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-3.1.0.tgz#2052ff72c68cda2c577a87aa0ea7980ae503fa99"
-  dependencies:
-    bluebird "^3.5.1"
-    chokidar "^3.0.0"
-    graceful-fs "^4.1.11"
-    hexo-util "^2.0.0"
-
-hexo-generator-alias@^0.1.3:
+hexo-generator-alias@0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/hexo-generator-alias/-/hexo-generator-alias-0.1.3.tgz#ee135bd39fe2eda3ec661f382d5c44a6a8e3e647"
+  integrity sha1-7hNb05/i7aPsZh84LVxEpqjj5kc=
 
-hexo-generator-archive@^1.0.0:
+hexo-generator-archive@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-archive/-/hexo-generator-archive-1.0.0.tgz#ad2afb12232a65e2f8608fc1ca3f19162fb63786"
+  integrity sha512-24TeanDGpMBUIq37DHpSESQbeN6ssZ06edsGSI76tN4Yit50TgsgzP5g5DSu0yJk0jUtHJntysWE8NYAlFXibA==
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-category@^1.0.0:
+hexo-generator-category@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-category/-/hexo-generator-category-1.0.0.tgz#cd2a2b03eb326da3ef821d6e29408488cc132eb5"
+  integrity sha512-kmtwT1SHYL2ismbGnYQXNtqLFSeTdtHNbJIqno3LKROpCK8ybST5QVXF1bZI9LkFcXV/H8ilt8gfg4/dNNcQQQ==
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-feed@^2.2.0:
+hexo-generator-feed@2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-feed/-/hexo-generator-feed-2.2.0.tgz#4b8b752a27d00525363e3449f18d063a92c13f0d"
+  integrity sha512-/jFMSyofFmp75P67sN9QesEW/wAFstmNfM+zXOOh+D5ZJe0RqXokczEetloqjCU1CX1EzKI3tRr/EoBZ6igQzg==
   dependencies:
     hexo-util "^1.3.0"
     nunjucks "^3.0.0"
 
-hexo-generator-index@^1.0.0:
+hexo-generator-index@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-index/-/hexo-generator-index-1.0.0.tgz#8c9f157dcfa0af4f8417f77a4eb5b3831f69a719"
+  integrity sha512-L25MdZ7e5ar/F8lIW+zBNNlA4f5A8CBUOYi1IQZCgL3wPVW+AWn66RSM5UVBAbiw5yxDeTHdk0sJYXbhSBaOFQ==
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-tag@^1.0.0:
+hexo-generator-tag@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-tag/-/hexo-generator-tag-1.0.0.tgz#54ec23de9409c75584ea81e36057a59031b022f1"
+  integrity sha512-JDoB2T1EncRlyGSjuAhkGxRfKkN8tq0i8tFlk9I4q2L6iYxPaUnFenhji0oxufTADC16/IchuPjmMk//dt8Msg==
   dependencies:
     hexo-pagination "1.0.0"
 
@@ -2178,9 +2188,10 @@ hexo-i18n@^1.0.0:
   dependencies:
     sprintf-js "^1.0.3"
 
-hexo-include-markdown@^1.0.2:
+hexo-include-markdown@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/hexo-include-markdown/-/hexo-include-markdown-1.0.2.tgz#1081e3b02432c315d06a1b2cb2b9d920478b6448"
+  integrity sha1-EIHjsCQywxXQahsssrnZIEeLZEg=
 
 hexo-log@^1.0.0:
   version "1.0.0"
@@ -2189,9 +2200,10 @@ hexo-log@^1.0.0:
     chalk "^2.4.1"
     hexo-bunyan "^2.0.0"
 
-hexo-migrator-wordpress@^1.0.0:
+hexo-migrator-wordpress@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-migrator-wordpress/-/hexo-migrator-wordpress-1.0.0.tgz#4d47c187de5d5be37e1c360f0b2a5b22b261b5ef"
+  integrity sha512-WsNmvPUKNKODDCOQ3UivEAVqIaC7n1u8a/dT48Fu8yFbdD/8MIfDaSz5h88npKptIYTdNwTw+r07Qq+am24rVA==
   dependencies:
     async "^0.9.0"
     request "^2.36.0"
@@ -2202,9 +2214,10 @@ hexo-pagination@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-1.0.0.tgz#c9c0ca3665267b9e9d0a89fc3edcaf3276907dc1"
 
-hexo-related-popular-posts@^3.0.6:
+hexo-related-popular-posts@3.0.6:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-3.0.6.tgz#e96567ab0dbcf19d39c9cdb0f002605e0d533d43"
+  integrity sha512-bxRRE6eBttug5mGMc8MRaxNs5VpUv9+kv8sSYB+Aqwdnkn5y+aKiO4D8d1zapBiA8vgMdiX5l9cVogA3xWX03Q==
   dependencies:
     cheerio "^1.0.0-rc.2"
     columnify "^1.5.4"
@@ -2216,42 +2229,48 @@ hexo-related-popular-posts@^3.0.6:
     mkdirp "^0.5.1"
     moment "^2.19.1"
 
-hexo-renderer-ejs@^1.0.0:
+hexo-renderer-ejs@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-renderer-ejs/-/hexo-renderer-ejs-1.0.0.tgz#43c4de49eeae224036a457df860eb1c14c68b4b4"
+  integrity sha512-O925i69FG4NYO62oWORcPhRZZX0sPx1SXGKUS5DaR/lzajyiXH5i2sqnkj0ya0rNLXIy/D7Xmt7WbFyuQx/kKQ==
   dependencies:
     ejs "^2.6.1"
 
-hexo-renderer-less@^1.0.0:
+hexo-renderer-less@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-renderer-less/-/hexo-renderer-less-1.0.0.tgz#05f24671eccd040c60a1ad649da1cfb4df164b6e"
+  integrity sha512-E5+jMt6Cv0gjPF1Z1pMuWrm3/0zkWvP0AtSZAoV8HyfI5/a5qLR9ilN0Tyg4T+Z4WBbHM2NOw2DgEzeRt9tIgw==
   dependencies:
     less "^3.9.0"
 
-hexo-renderer-marked@^2.0.0:
+hexo-renderer-marked@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-2.0.0.tgz#458540b014141e7cf72145a82ec591be359cdba1"
+  integrity sha512-+LMjgPkJSUAOlWYHJnBXxUHwGqemGNlK/I+JNO4zA5rEHWNWZ9wNAZKd5g0lEVdMAZzAV54gCylXGURgMO4IAw==
   dependencies:
     hexo-util "1.0.0"
     marked "^0.7.0"
     strip-indent "^3.0.0"
 
-hexo-renderer-sass@^0.4.0:
+hexo-renderer-sass@0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/hexo-renderer-sass/-/hexo-renderer-sass-0.4.0.tgz#d885a04df93e70fdb4ba107505e6b8093c1a5d87"
+  integrity sha512-goQ/r8J/2s5XnIp+dSDwWgaxHl6h/VVEsp95Jr/+sYqFfXHXDIC4evC+V1to9ezfQwOS//ZZFQptTZIKTuh8Lg==
   dependencies:
     node-sass "^4.5.3"
 
-hexo-renderer-stylus@^1.1.0:
+hexo-renderer-stylus@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hexo-renderer-stylus/-/hexo-renderer-stylus-1.1.0.tgz#7a0a107bcf4b74fdf88f28da2db47b8dc9e208e5"
+  integrity sha512-aXfMuro2aQOvpM5pyPEModAPvqYi73VN4t37vGMQCbT0QTmw8YohEmUpO/G/1k6j88ong6344v+A0xrpUGQRnQ==
   dependencies:
     nib "^1.1.2"
     stylus "^0.54.5"
 
-hexo-server@^1.0.0:
+hexo-server@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-server/-/hexo-server-1.0.0.tgz#af89fcc0a07740ad2a7f33d1d003889aab22927e"
+  integrity sha512-eSY+a5oiGCG/3T6FrdrNRBkttMLJkM+oitY6ZMFowjcBiG2VNEhQmfWUDOykfvApZs4wPYBb//uXD/58tfe3mA==
   dependencies:
     bluebird "^3.5.5"
     chalk "^2.4.2"
@@ -2262,13 +2281,15 @@ hexo-server@^1.0.0:
     open "^6.3.0"
     serve-static "^1.14.1"
 
-hexo-tag-mastodon@^1.0.4:
+hexo-tag-mastodon@1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/hexo-tag-mastodon/-/hexo-tag-mastodon-1.0.4.tgz#c2547a165b8b9d3cf93977e9cc9ba814a57ae1e0"
+  integrity sha512-gsi6Kqw6Zox9P1Viwb5w+GEqmGlg7xCNqhUoFWhoZfpvIpcWMHqB/45fwq1AvC25u+evtyoK4zsPecmhljzx0w==
 
-hexo-tag-twitter@^1.0.1:
+hexo-tag-twitter@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hexo-tag-twitter/-/hexo-tag-twitter-1.0.1.tgz#92856d696db5e0b1f535d025d28a38298b8133e3"
+  integrity sha1-koVtaW214LH1NdAl0oo4KYuBM+M=
 
 hexo-util@1.0.0:
   version "1.0.0"
@@ -2318,9 +2339,10 @@ hexo-util@^2.0.0:
     strip-indent "^3.0.0"
     striptags "^3.1.1"
 
-hexo@^4.2.1:
+hexo@4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/hexo/-/hexo-4.2.1.tgz#2aa1d4428b0ade23bac34f546a387b36432dd81c"
+  integrity sha512-V7kJsL4m2HM0Czm0j0ZDLJWxv5OJvbpTWgk0cCKcvHg2Dd/SVgtyLI+ygoPPrMipTquxii6waF5l44Op0bMEEQ==
   dependencies:
     abbrev "^1.1.1"
     archy "^1.0.0"
