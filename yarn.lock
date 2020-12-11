@@ -2214,10 +2214,10 @@ hexo-pagination@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-1.0.0.tgz#c9c0ca3665267b9e9d0a89fc3edcaf3276907dc1"
 
-hexo-related-popular-posts@3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-3.0.6.tgz#e96567ab0dbcf19d39c9cdb0f002605e0d533d43"
-  integrity sha512-bxRRE6eBttug5mGMc8MRaxNs5VpUv9+kv8sSYB+Aqwdnkn5y+aKiO4D8d1zapBiA8vgMdiX5l9cVogA3xWX03Q==
+hexo-related-popular-posts@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-5.0.1.tgz#8dc61e7f8bc40058c5adef34213364e3a1472bb5"
+  integrity sha512-X+7leZ708sXq1bgayful2HaGU22XAGPDZjqzpFUoeP8mXmJL51E2p66gqs7Xu+rygu4MMJQJvRK/fzGbHa8eqQ==
   dependencies:
     cheerio "^1.0.0-rc.2"
     columnify "^1.5.4"
