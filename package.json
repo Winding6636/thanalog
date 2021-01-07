@@ -31,6 +31,6 @@
     "hexo-renderer-stylus": "1.1.0",
     "hexo-server": "1.0.0",
     "hexo-tag-mastodon": "1.0.4",
-    "hexo-tag-twitter": "1.0.1"
+    "hexo-tag-twitter": "1.0.2"
   }
 }
