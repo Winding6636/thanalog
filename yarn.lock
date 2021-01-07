@@ -2286,10 +2286,10 @@ hexo-tag-mastodon@1.0.4:
   resolved "https://registry.yarnpkg.com/hexo-tag-mastodon/-/hexo-tag-mastodon-1.0.4.tgz#c2547a165b8b9d3cf93977e9cc9ba814a57ae1e0"
   integrity sha512-gsi6Kqw6Zox9P1Viwb5w+GEqmGlg7xCNqhUoFWhoZfpvIpcWMHqB/45fwq1AvC25u+evtyoK4zsPecmhljzx0w==
 
-hexo-tag-twitter@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/hexo-tag-twitter/-/hexo-tag-twitter-1.0.1.tgz#92856d696db5e0b1f535d025d28a38298b8133e3"
-  integrity sha1-koVtaW214LH1NdAl0oo4KYuBM+M=
+hexo-tag-twitter@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/hexo-tag-twitter/-/hexo-tag-twitter-1.0.2.tgz#03fdc73a5fff1adaf0d2c5a746b156be3c38b74c"
+  integrity sha512-X4i4XEHt5gFolmKyehwOpO/rFa3rDurk6xycDO4c71lFwcgAxuHlXGQnYi82jF3wI7qmPnAxkvvSYuRtHqB0KA==
 
 hexo-util@1.0.0:
   version "1.0.0"
