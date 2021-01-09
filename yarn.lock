@@ -2236,12 +2236,13 @@ hexo-renderer-ejs@1.0.0:
   dependencies:
     ejs "^2.6.1"
 
-hexo-renderer-less@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-less/-/hexo-renderer-less-1.0.0.tgz#05f24671eccd040c60a1ad649da1cfb4df164b6e"
-  integrity sha512-E5+jMt6Cv0gjPF1Z1pMuWrm3/0zkWvP0AtSZAoV8HyfI5/a5qLR9ilN0Tyg4T+Z4WBbHM2NOw2DgEzeRt9tIgw==
+hexo-renderer-less@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-less/-/hexo-renderer-less-2.0.2.tgz#f6e891ed5f0f7d3c4308e4cd604047f2d64d8721"
+  integrity sha512-ieBAtFm6fhWeJJzVPzCBcI94qXIrjokJ25eBg2xBsB6Tj1JGzsKqUt8dPKNIxgudYguf+HX5eViIbqGCeelS9g==
   dependencies:
     less "^3.9.0"
+    micromatch "^4.0.2"
 
 hexo-renderer-marked@2.0.0:
   version "2.0.0"
