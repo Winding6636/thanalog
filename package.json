@@ -28,7 +28,7 @@
     "hexo-renderer-less": "1.0.0",
     "hexo-renderer-marked": "2.0.0",
     "hexo-renderer-sass": "0.4.0",
-    "hexo-renderer-stylus": "1.1.0",
+    "hexo-renderer-stylus": "2.0.1",
     "hexo-server": "1.0.0",
     "hexo-tag-mastodon": "1.0.4",
     "hexo-tag-twitter": "1.0.1"
