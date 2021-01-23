@@ -9,7 +9,7 @@
     "version": "^4.2.1"
   },
   "dependencies": {
-    "chokidar": "3.4.0",
+    "chokidar": "3.5.1",
     "hawk": "7.0.10",
     "hexo": "4.2.1",
     "hexo-admin": "2.3.0",
