@@ -11,7 +11,7 @@
   "dependencies": {
     "chokidar": "3.4.0",
     "hawk": "7.0.10",
-    "hexo": "4.2.1",
+    "hexo": "5.4.0",
     "hexo-admin": "2.3.0",
     "hexo-cli": "3.1.0",
     "hexo-fs": "3.1.0",
